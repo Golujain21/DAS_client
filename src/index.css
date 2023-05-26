@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section.forgot_password ,section.sign_in_form,section.sign_up_form, section.reset_password , .update_profile_form {
+  padding: 70px 0px;
+  width: 100%;
+  /* max-width: 920px; */
+  margin: 0 auto;
+  background: aliceblue;
+}
+.forgot_password form ,.sign_in_form form ,.sign_up_form form ,.reset_password form ,.update_profile_form form{
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+}
+.spinner{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* apply-form */
+.form-btn {
+  width: 250px !important;
+  margin-top: 30px !important;
+}
+
+
+/* book-appointment */
+section.book-appointment {
+  padding: 40px 20px;
+}
